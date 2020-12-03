@@ -1,0 +1,22 @@
+
+.button {
+  background-color: #33AAFF; /* Kind of blue bro */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+}
+
+.button-banner {
+  background-color: rgb(100,100,100); /* Kind of blue bro */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}

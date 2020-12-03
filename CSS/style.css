@@ -1,0 +1,130 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+  background-color: white;
+  color: #5c6e91; 
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 22px;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 6px 10px 30px rgba(0,0,0.1);
+    border-radius: 4px;
+    text-align: center; 
+}
+
+h1{
+  color: #a20a0a;
+  font-family: Roboto;
+  font-weight: 50;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size:70px; 
+}
+
+h2{
+  color: rgb(100,100,100);
+  font-family: Roboto;
+  font-weight: 20;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size:70px; 
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h4{
+  color: rgb(100,100,100);
+  font-family: Roboto;
+  font-weight: 20;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size:70px; 
+  text-align: center; 
+}
+
+a:hover{
+	color: blue;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+.card-justify {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin:20px 0px;
+  text-align: justify;
+}
+
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.cards {
+  display: center;
+  flex-wrap: wrap;
+}
+
+.card2{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
